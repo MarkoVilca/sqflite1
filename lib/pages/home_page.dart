@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../db/recordatorios.dart';
+import '../db/dbdb.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

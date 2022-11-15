@@ -21,8 +21,8 @@ class DBAdmin {
 
   Future<Database> initDatabase() async {
     Directory directory = await getApplicationDocumentsDirectory();
-    String path = join(directory.path, "recordatorio.db");
-    return await Opendatabase(
+    String path = join(directory.path, "dbdb.db");
+    return await openDatabase(
       path,
       version: 1,
       onOpen: (db) {},
